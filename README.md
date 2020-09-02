@@ -6,7 +6,7 @@ This script allows you to batch compress `css, js, svg, csv, json etc.` files be
 # Introduction
 **What is Brotli?**
 
-Named after a Swiss baked good, Brotli is a compression algorithm that Google released a few years ago. As of late 2020 most modern browsers support Brotli.
+Named after a Swiss baked good, Brotli is a compression algorithm that Google released back in 2013. As of late 2020 most modern browsers support Brotli.
 Essentially, Brotli has the potential to offer roughly 20-26% better compression ratios than gZip at comparable speeds, which is great news for those of us who care about performance.
 
 **How it Works With the Browser**
