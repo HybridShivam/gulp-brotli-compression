@@ -1,7 +1,7 @@
 # gulp-brotli-compression
 Google's Brotli is better at compression than the standard gZIP as the content-encoding for HTTP requests. 
 
-This script allows you to batch compress `css, js, svg, csv, json` files beforehand to facilitate super-fast static content delivery (With some web server tweaks).
+This script allows you to batch compress `css, js, svg, csv, json etc.` files beforehand to facilitate super-fast static content delivery (With some web server tweaks).
 
 # Introduction
 **What is Brotli?**
