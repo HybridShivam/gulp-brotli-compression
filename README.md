@@ -49,8 +49,8 @@ So for static content, we can precompress the files into the brotli format and s
 
 **Deploying the website code**
 1. You can simply paste all the files(including the original and the .br ones) in your `DocumentRoot` as you normally do.
-1. Make sure to setup the web server to respond to `Accept-Encoding: "gzip, deflate, br"` requests differently with the `.br` extension files as shown below:
+1. Make sure to setup the web server to respond to `Accept-Encoding: "gzip, deflate, br"` requests differently with the `.br` extension files and change the content encoding accoridingly as well to prevent recompression(see more below).
 
-**Configuring the server**
+**Configuring the server for static brotli**
 1. Make sure brotli compressed files exist right next to the normal files in respective folders. E.g. if you have a file `/var/www/html/style.css` there should also be `/var/www/html/style.css.br`
 1. Copy the `.htaccess` file from the repo to the `DocumentRoot` as well. This `.htaccess` file is already configured to serve pre-compressed `.br` files.
